@@ -15,9 +15,9 @@
                 extend: {
                     colors: {
                         brand: {
-                            light: '#3b82f6', // Bright Blue
-                            dark: '#60a5fa',
-                            accent: '#f43f5e' // Rose Accent
+                            light: '#6366f1', // Elegant Indigo
+                            dark: '#818cf8',
+                            accent: '#10b981' // Sophisticated Emerald
                         }
                     },
                     animation: {
@@ -57,8 +57,8 @@
             <div class="flex justify-between h-16 items-center">
                 <!-- Logo Area -->
                 <div class="flex-shrink-0 flex items-center gap-2 cursor-pointer" onclick="navigateTo('home')">
-                    <div class="w-8 h-8 bg-brand-light rounded-lg flex items-center justify-center text-white font-bold">P</div>
-                    <span class="font-bold text-xl tracking-tight hidden sm:block">Aditya</span>
+                    <div class="w-8 h-8 bg-gradient-to-br from-brand-light to-brand-accent rounded-lg flex items-center justify-center text-white font-bold shadow-lg">A</div>
+                    <span class="font-bold text-xl tracking-tight hidden sm:block">ADITYA GUPTA</span>
                 </div>
 
                 <!-- Desktop Nav -->
@@ -114,7 +114,7 @@
                     I'm a Full-Stack Developer specializing in clean, corporate-grade solutions with a passion for bold design and user-centric architecture.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4">
-                    <button onclick="navigateTo('projects')" class="px-8 py-4 bg-brand-light hover:bg-blue-600 text-white font-bold rounded-xl transition-all hover:shadow-lg hover:shadow-brand-light/30">
+                    <button onclick="navigateTo('projects')" class="px-8 py-4 bg-brand-light hover:bg-indigo-700 text-white font-bold rounded-xl transition-all hover:shadow-lg hover:shadow-brand-light/30">
                         View My Work
                     </button>
                     <a href="#" class="px-8 py-4 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 font-bold rounded-xl transition-all hover:border-brand-light flex items-center justify-center gap-2">
@@ -220,7 +220,7 @@
                             <label class="block text-sm font-bold mb-2">Message</label>
                             <textarea rows="5" required class="w-full px-4 py-3 rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 focus:ring-2 focus:ring-brand-light outline-none transition-all" placeholder="How can I help you?"></textarea>
                         </div>
-                        <button type="submit" class="w-full py-4 bg-brand-light text-white font-bold rounded-xl hover:bg-blue-600 transition-colors flex items-center justify-center gap-2">
+                        <button type="submit" class="w-full py-4 bg-brand-light text-white font-bold rounded-xl hover:bg-indigo-700 transition-colors flex items-center justify-center gap-2">
                             <i data-lucide="send" class="w-5 h-5"></i>
                             Send Message
                         </button>
@@ -238,8 +238,8 @@
     <footer class="bg-white dark:bg-slate-950 border-t border-slate-200 dark:border-slate-800 py-12">
         <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-8">
             <div class="flex items-center gap-2">
-                <div class="w-6 h-6 bg-brand-light rounded flex items-center justify-center text-white text-xs font-bold">P</div>
-                <span class="font-bold tracking-tight">PORTFOLIO</span>
+                <div class="w-6 h-6 bg-gradient-to-br from-brand-light to-brand-accent rounded flex items-center justify-center text-white text-xs font-bold shadow-md">A</div>
+                <span class="font-bold tracking-tight">ADITYA GUPTA</span>
             </div>
             
             <div class="flex gap-6">
@@ -249,7 +249,7 @@
             </div>
             
             <div class="text-sm text-slate-500">
-                &copy; 2024 YourName. Built with ❤️ and Code.
+                &copy; 2024 Aditya Gupta. Built with ❤️ and Code.
             </div>
         </div>
     </footer>
